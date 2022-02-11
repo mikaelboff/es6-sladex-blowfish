@@ -1,6 +1,6 @@
 {
-  "name": "sladex-blowfish",
-  "version": "1.0.0",
+  "name": "sladex-blowfish-extended",
+  "version": "1.0.1",
   "description": "Sladex Blowfish",
   "main": "blowfish.js",
   "scripts": {
