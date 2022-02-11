@@ -1,0 +1,34 @@
+{
+  "name": "sladex-blowfish",
+  "version": "1.0.0",
+  "description": "Sladex Blowfish",
+  "main": "blowfish.js",
+  "scripts": {
+    "publish": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikaelboff/sladex-blowfish.git"
+  },
+  "keywords": [
+    "blowfish",
+    "sladex",
+    "ecb",
+    "cbc",
+    "encryption",
+    "decryption",
+    "library"
+  ],
+  "author": "Mikael A. Boff",
+  "files": [
+    "blowfish.js",
+    "sladex-blowfish.d.ts"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "uglify-js": "^3.10.4"
+  }
+}
