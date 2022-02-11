@@ -1,12 +1,9 @@
 {
   "name": "sladex-blowfish-extended",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Sladex Blowfish",
   "main": "blowfish.js",
   "types": "./sladex-blowfish.d.ts",
-  "scripts": {
-    "publish": "npm publish"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mikaelboff/sladex-blowfish.git"
