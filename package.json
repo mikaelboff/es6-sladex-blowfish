@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "Sladex Blowfish",
   "main": "blowfish.js",
+  "types": "./sladex-blowfish.d.ts",
   "scripts": {
     "publish": "npm publish"
   },
@@ -24,11 +25,5 @@
     "blowfish.js",
     "sladex-blowfish.d.ts"
   ],
-  "license": "ISC",
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
-    "babel-preset-es2015": "^6.24.1",
-    "uglify-js": "^3.10.4"
-  }
+  "license": "ISC"
 }

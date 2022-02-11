@@ -15,17 +15,15 @@ export enum TYPE {
 }
 
 export default class Blowfish {
-  setIv(iv: string, inputType: string): void;
-
   encrypt(
     plaintext: string,
     key: string,
-    ao: { outputType: number; cipherMode: number }
+    ao?: { outputType: number; cipherMode: number }
   ): Uint8Array | string;
 
-  decode(
+  decrypt(
     ciphertext: string,
     key: string,
-    ao: { outputType: number; cipherMode: number }
+    ao?: { outputType: number; cipherMode: number }
   ): Uint8Array | string;
 }
