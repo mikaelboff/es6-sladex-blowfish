@@ -1,12 +1,12 @@
 {
-  "name": "sladex-blowfish-extended",
-  "version": "1.0.4",
-  "description": "Sladex Blowfish",
+  "name": "es6-sladex-blowfish",
+  "version": "1.0.5",
+  "description": "Sladex Blowfish using ES6",
   "main": "blowfish.js",
-  "types": "./sladex-blowfish.d.ts",
+  "types": "./es6-sladex-blowfish.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mikaelboff/sladex-blowfish.git"
+    "url": "git+https://github.com/mikaelboff/es6-sladex-blowfish.git"
   },
   "keywords": [
     "blowfish",
@@ -20,7 +20,8 @@
   "author": "Mikael A. Boff",
   "files": [
     "blowfish.js",
-    "sladex-blowfish.d.ts"
+    "es6-sladex-blowfish.d.ts",
+    "README.md"
   ],
   "license": "ISC"
 }

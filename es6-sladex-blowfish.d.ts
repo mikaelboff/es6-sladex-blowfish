@@ -18,12 +18,12 @@ export default class Blowfish {
   static encrypt(
     plaintext: string,
     key: string,
-    ao?: { outputType: number; cipherMode: number }
+    ao?: { cipherMode: MODE; outputType: TYPE }
   ): Uint8Array | string;
 
   static decrypt(
     ciphertext: string,
     key: string,
-    ao?: { outputType: number; cipherMode: number }
+    ao?: { cipherMode: MODE; outputType: TYPE }
   ): Uint8Array | string;
 }
