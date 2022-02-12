@@ -7,7 +7,7 @@
   "scripts": {
     "uglify": "uglifyjs blowfish.js -o blowfish-min.js -m -c",
     "prepublish": "rm -rf blowfish-min.js && npm run uglify",
-    "publish": "./bin/increment-version.sh"
+    "publish": "./bin/increment-version.sh && npm publish"
   },
   "repository": {
     "type": "git",
