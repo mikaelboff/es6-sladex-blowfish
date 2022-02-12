@@ -1,6 +1,6 @@
 {
   "name": "es6-sladex-blowfish",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Sladex Blowfish using ES6",
   "main": "blowfish-min.js",
   "types": "./es6-sladex-blowfish.d.ts",
