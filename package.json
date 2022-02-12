@@ -6,8 +6,7 @@
   "types": "./es6-sladex-blowfish.d.ts",
   "scripts": {
     "uglify": "uglifyjs blowfish.js -o blowfish-min.js -m -c",
-    "preversion": "rm -rf blowfish-min.js && npm run uglify",
-    "version": "./bin/increment-version.sh && npm publish"
+    "prepublishOnly": "rm -rf blowfish-min.js && npm run uglify && ./bin/increment-version.sh"
   },
   "repository": {
     "type": "git",
