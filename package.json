@@ -2,8 +2,13 @@
   "name": "es6-sladex-blowfish",
   "version": "1.0.6",
   "description": "Sladex Blowfish using ES6",
-  "main": "blowfish.js",
+  "main": "blowfish-min.js",
   "types": "./es6-sladex-blowfish.d.ts",
+  "scripts": {
+    "uglify": "uglifyjs blowfish.js -o blowfish-min.js -m -c",
+    "prepublish": "rm -rf blowfish-min.js && npm run uglify",
+    "publish": "./bin/ci-increment-version.sh"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mikaelboff/es6-sladex-blowfish.git"
@@ -19,9 +24,12 @@
   ],
   "author": "Mikael A. Boff",
   "files": [
-    "blowfish.js",
+    "blowfish-min.js",
     "es6-sladex-blowfish.d.ts",
     "README.md"
   ],
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "uglify-js": "^3.15.1"
+  }
 }
